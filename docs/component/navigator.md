@@ -20,6 +20,7 @@
 |hover-start-time|Number|50|按住后多久出现点击态，单位毫秒||
 |hover-stay-time|Number|600|手指松开后点击态保留时间，单位毫秒|&nbsp;|
 |target|String|self|在哪个小程序目标上发生跳转，默认当前小程序，值域self/miniProgram|微信2.0.7+、百度2.5.2+、QQ|
+|path|String||当target="miniProgram"时有效，打开的页面路径，如果为空则打开首页|微信2.0.7+|
 
 **open-type 有效值**
 
